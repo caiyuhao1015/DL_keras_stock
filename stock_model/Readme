@@ -1,0 +1,15 @@
+在run脚本开始位置改变不同的i，会在saved_models中得到不同的模型h5文件记录。
+
+core中的data_processor是对数据进行预处理、batch切分、训练集切分以及滑动窗口的建立。
+
+core中的attention是注意力机制的类。
+
+core中的model是运用keras.layers搭建的神经网络模型。
+
+SH300是对沪深300成分股爬取的模块。
+
+model_json是三种模型结构的json记录文件。更换模型需要在run的main函数中改变json文件名。
+
+mystockselect是用来选取每天的股票购买清单。
+
+myAccount用于回测，类中有最大回撤率、胜率、购买股票清单等输出模块，可以供大家参考使用。

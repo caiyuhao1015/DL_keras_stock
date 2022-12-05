@@ -1,0 +1,658 @@
+/* app menu */
+wf-pop wf-popwindow.wf-menu {
+    min-width: 960px;
+}
+wf-pop .wf-menu wf-popbody {
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+    min-width: 960px;
+}
+
+
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    50% {opacity: 0.6;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@keyframes fade-out {
+    0% {opacity: 1;}/*初始状态 透明度为0*/
+    50% {opacity: 0.4;}/*过渡状态 透明度为0*/
+    100% {opacity: 0;}/*结束状态 透明度为1*/
+}
+
+carouselcont{
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+carouselcont .swiper-slide {
+    width: auto;
+    height: auto;
+}
+carouselcont ul.carousel li img {
+    width: 100%;
+    height: unset;
+}
+carouselcont .banner-anchor {
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: #fff;
+    background:rgb(245,247,250,0.1) url('/images/appmenu/left.png') no-repeat center;
+}
+carouselcont .banner-anchor:hover{
+    background-color: rgba(28, 31, 33, 0.5);
+}
+carouselcont .banner-anchor:after {
+    content: '';
+    font-size: 0;
+}
+carouselcont .banner-anchor.prev {
+    transform: rotate(180deg);
+}
+carouselcont.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+.carousel-swiper-pagination .swiper-pagination-bullet {
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: 0 5px;
+    opacity: 0.5;
+    border-radius: 0;
+}
+.carousel-swiper-pagination .swiper-pagination-bullet-active {
+    opacity: .9;
+}
+
+apptype {
+    display: block;
+    background: #fff;
+    min-height: 100px;
+    z-index:2;
+    box-shadow: 0 10px 10px -8px #ddd
+}
+apptype currtype {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 20px;
+}
+apptype typelist {
+    padding-top: 36px;
+    line-height: 30px;
+    display: block;
+    margin-left: 120px;
+}
+apptype typename {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
+}
+apptype typename.active {
+    border: 1px solid #417dc9;
+    background-color: #417dc9;
+    color:#fff;
+}
+apptype typename.active span {
+    color: #fff;
+}
+apptype typename span.appstore-hot {
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 12px;
+    line-height: 14px;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #ff7709;
+    background: -moz-linear-gradient(left, hsla(27,100%,52%,1) 1%, hsla(42,100%,53%,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%,hsla(27,100%,52%,1)), color-stop(100%,hsla(42,100%,53%,1)));
+    background: -webkit-linear-gradient(left, hsla(27,100%,52%,1) 1%,hsla(42,100%,53%,1) 100%);
+    background: -o-linear-gradient(left, hsla(27,100%,52%,1) 1%,hsla(42,100%,53%,1) 100%);
+    background: -ms-linear-gradient(left, hsla(27,100%,52%,1) 1%,hsla(42,100%,53%,1) 100%);
+    background: linear-gradient(to right, hsla(27,100%,52%,1) 1%,hsla(42,100%,53%,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7709', endColorstr='#ffb80d',GradientType=1 );
+    z-index: 5;
+    position: absolute;
+    top: -20px;
+    width: 36px;
+    right: -19px;
+    animation: fivezhe 1.8s infinite;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: fivezhe;
+    padding-right: 8px;
+    background-image: linear-gradient(225deg, #FF4F21 0%, #FF3BC3 100%);
+}
+apptype typename span.appstore-hot::after {
+    bottom: -4px;
+    left: 3px;
+    border-top: solid transparent;
+    border-top-color: transparent;
+    border-top-width: medium;
+    border-right: solid transparent;
+    border-right-color: transparent;
+    border-right-width: medium;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136,183,213,0);
+    border-top-color: rgba(136, 183, 213, 0);
+    border-top-color: #ff7709;
+    border-width: 5px;
+    margin-left: 0;
+}
+popcontainer banner {
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(118,168,228);
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+popcontainer banner * {
+    font: 13px Arial, sans-serif;
+}
+
+banner img {
+    vertical-align: middle;
+}
+banner app-index {
+    display: inline-block;
+    width: 76px;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 24px;
+}
+banner app-index span:first-child {
+    color: #fff;
+    font-size: 18px;
+}
+banner app-index span:last-child {
+    color: #fff;
+    font-size: 12px;
+}
+banner input {
+    width: 750px;
+    height: 38px;
+    border-left: 1px solid rgb(191,214,242);
+    border-right: 1px solid rgb(191,214,242);
+    border-top: none;
+    border-bottom: none;
+    vertical-align: middle;
+    text-indent: 20px;
+    outline: none;
+}
+banner button {
+    width: 100px;
+    height: 38px;
+    color: #fff;
+    background: rgb(58,121,196);
+    border-radius: 0;
+    border:none;
+    margin: 0;
+    cursor: pointer;
+}
+banner button:hover {
+    background: rgba(58,121,196, 0.8);
+}
+
+search-tab, popcontainer search-tab {
+    display: block;
+    width: 275px;
+    height: 28px;
+    background-color: #fff;
+    position: absolute;
+    top: 33px;
+    right: 20px;
+}
+search-tab input {
+    height: 28px;
+    width: 230px;
+    border: none;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+search-tab input:hover,search-tab input:focus {
+    border: none;
+}
+search-tab button {
+    width: 45px;
+    height: 28px;
+    border: none;
+    background-color: #417dc9;
+    border-radius: 0;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    line-height: 28px;
+}
+search-tab button:hover {
+    border: none;
+}
+search-tab button img {
+    vertical-align: middle;
+}
+search-tab button:hover {
+    background-color: #417dc9;
+    opacity: 0.9;
+
+}
+@media screen and (max-width: 960px) {
+    apptype currtype {
+        float: none;
+        line-height: 60px;
+    }
+    apptype typelist {
+        margin-left: 0;
+        padding-top: 0;
+    }
+    apptype typename{
+        margin-bottom: 20px;
+    }
+    search-tab, popcontainer search-tab {
+        top: 85px;
+        right: 50%;
+        transform: translateX(50%);
+        z-index: 2;
+        width: 245px;
+    }
+    search-tab input {
+        width: 200px;
+    }
+}
+
+
+wf-popbody popcontainer {
+    display: block;
+    /* height: 100%; */
+    width: 100%;
+    /* min-width: 1080px;
+    padding: 20px; */
+    background-color: rgb(246,246,246);
+    position: relative;
+}
+
+popcontainer tab {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding-left: 0;
+    padding-top: 30px;
+}
+popcontainer tab-nav {
+    color: #3c3c3c;
+    height: 40px;
+    border: none;
+    line-height: 28px;
+    padding: 5px 15px;
+}
+popcontainer tab-nav.active {
+    border: none;
+    border-bottom: 2px solid #417dc9;
+    background-color: transparent;
+    color: #417dc9;
+}
+container#appmenu {
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+}
+@media screen and (max-width: 960px) {
+    container#appmenu {
+        margin-top: 40px;
+    }
+    wf-popbody popcontainer container#appmenu {
+        padding: 10px;
+        margin-top: 40px;
+    }
+}
+
+popcontainer container app,app-container app {
+    vertical-align: top;
+    display: inline-block;
+    width: 226px;
+    height: 250px;
+    margin: 10px 15px;
+    padding: 0;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* cursor: pointer; */
+}
+
+app:hover {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #ddd;
+}
+
+app image {
+    display: block;
+    width: 226px;
+    height: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius: 8px; */
+}
+
+app no-img {
+    display: inline-block;
+    line-height: 140px;
+    width: 226px;
+    height: 140px;
+    background-color: lightblue;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+app app-info {
+    width: 100%;
+    display: block;
+    position: relative;
+    width: auto;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    padding: 0 5px;
+}
+app app-info recommend-app.recommended-app {
+    position: absolute;
+    right: 0;
+    width: 46px;
+    height: 20px;
+    top: 0;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 3px;
+}
+app app-info app-desc {
+    height: 16px;
+}
+app app-info favorite-info {
+    display: block;
+    position: absolute;
+    right: 15px;
+    /* bottom: 20px; */
+    border: none;
+    /* width: 15px; */
+    height: 15px;
+    bottom: 0;
+    color: #999999;
+}
+
+app app-info img {
+    display: inline-block;
+    vertical-align: middle;
+}
+app app-info star-number {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+}
+app app-info sold {
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    right: 15px;
+    bottom: -20px;
+    color: #999999;
+}
+
+app app-name, app-desc{
+    display: block;
+    font-size: 14px;
+    color: #3c3c3c;
+    margin: 5px 0px;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+app app-name {
+    max-width: 160px;
+}
+app app-desc {
+    color: #999999;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+app app-name:hover{
+    color: rgb(130, 187, 255);
+}
+app wf-user a{
+    color: #999999;
+    font-size: 12px;
+}
+
+app i {
+    width: auto;
+    color: darkorange;
+    cursor: pointer;
+    margin-top: 11px;
+    float: right;
+}
+@media screen and (max-width: 960px) {
+    app-container app {
+       width: 140px;
+       height: 190px;
+       margin: 10px 5px;
+   }
+   popcontainer container app {
+       width: 110px;
+       height: 176px;
+       margin: 10px 5px;
+   }
+   app image {
+       width: 140px;
+       height: 87px;
+       background-size: 140px 87px;
+   }
+   wf-popbody popcontainer app image {
+       width: 110px;
+       height: 68px;
+       background-size: 110px 68px;
+   }
+   app app-info {
+       height: 71px;
+   }
+   app app-info recommend-app.recommended-app {
+       top: -30px;
+   }
+   app wf-user {
+       width: 85px;
+   }
+   app app-name {
+       height: 16px;
+   }
+}
+otherapp {
+    display: inline-block;
+    padding: 5px;
+}
+
+otherapp:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+otherapp a {
+    display: block;
+}
+wf-header a:hover {
+    color: #417dc9;
+}
+wf-header i#fav {
+    color: darkorange;
+}
+app wf-user:hover {
+    color: #417dc9;
+}
+
+app i.gray,
+wf-header i#fav.gray {
+    color: #ddd
+}
+wf-pagination {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+wf-pagination a ,wf-pagination span {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 3px;
+    color: #333;
+    font-weight: bold;
+}
+wf-pagination span {
+    color: #417dc9;
+}
+wf-pagination a.den {
+    pointer-events: none;
+    cursor:not-allowed;
+    color: #999;
+
+}
+
+/* .tips {
+    width: 100px;
+    height: 20px;
+
+}
+.tips.success {
+    background-color: #ddd;
+    color: #dddd;
+} */
+
+/* 资源包选择tab 及资源包选择列表*/
+#pay-form, #pay-form multiview {
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+#pay-form multiview tab, .container multiview tab {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0;
+}
+
+#pay-form multiview tab tab-nav, .container multiview tab tab-nav {
+    margin-right: 5px;
+    cursor: pointer;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: inherit;
+    font-size: 18px;
+}
+
+#pay-form multiview tab tab-nav.active, .container multiview tab tab-nav.active {
+    border-bottom: 2px solid #81c5ba;
+    color: #81c5ba;
+}
+
+#pay-form .package-cate {
+    margin-top: 20px;
+    border-left: 3px solid #81c5ba;
+    padding-left: 5px;
+}
+
+#pay-form ul li {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    margin: 20px 0 0 15px;
+    float: left;
+    padding: 5px;
+}
+
+#pay-form ul li .price-con {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#pay-form ul li .price-con .package-name {
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+#pay-form ul li .price-con .recharge-money {
+    font-size: 16px;
+}
+
+#pay-form ul li .package-amount-prompt {
+    color: #eb2626;
+    font-size: 13px;
+}
+
+#pay-form ul li.active {
+    border: 1px solid #81c5ba;
+    overflow: hidden;
+}
+
+#pay-form ul li i.fa-check {
+    display: none;
+}
+
+#pay-form ul li.active i.fa-check {
+    display: inline;
+    color: #f2f9ff;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#pay-form ul li.active::after {
+    content: "";
+    position: absolute;
+    right: -60%;
+    bottom: -60%;
+    width: 100%;
+    height: 100%;
+    background-color: #81c5ba;
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,80 @@
+{
+	"data": {
+		"filename": "",
+		"columns": [
+			"收盘",
+			"成交额",
+			"换手率",
+			"SMA",
+			"upper",
+			"lower",
+			"MA5",
+			"MA10",
+			"MA20",
+			"MACD",
+			"DEA",
+			"DIF",
+			"RSI",
+			"CMO",
+			"K",
+			"D",
+			"ADX",
+			"OBV",
+			"MFI",
+			"TRIX"
+		],
+		"sequence_length": 20,
+		"train_test_split": 0.85,
+		"normalise": true
+	},
+	"training": {
+		"epochs": 64,
+		"batch_size": 16
+	},
+	"model": {
+		"loss": "mse",
+		"optimizer": "adam",
+		"save_dir": "saved_models",
+		"layers": [
+			{
+				"type": "lstm",
+				"neurons": 100,
+				"input_timesteps": 19,
+				"input_dim": 20,
+				"return_seq": true
+			},
+			{
+				"type": "dropout",
+				"rate": 0.2
+			},
+			{
+				"type": "lstm",
+				"neurons": 100,
+				"return_seq": true
+			},
+			{
+				"type": "dropout",
+				"rate": 0.2
+			},
+			{
+				"type": "lstm",
+				"neurons": 100,
+				"return_seq": false
+			},
+			{
+				"type": "dropout",
+				"rate": 0.1
+			},
+			{
+				"type": "dense",
+				"neurons": 1,
+				"activation": "linear"
+			},
+			{
+				"type": "dense",
+				"neurons": 1,
+				"activation": "linear"
+			}
+		]
+	}
+}

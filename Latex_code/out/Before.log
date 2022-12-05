@@ -1,0 +1,3624 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.28)  30 NOV 2022 15:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Before.tex
+(./Before.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+./Before.tex:3: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \usepackage{
+                fancyvrb}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:4: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \usepackage{
+                fvextra}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:5: Undefined control sequence.
+l.5 \fvset
+          {fontsize=\footnotesize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:5: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \fvset{f
+            ontsize=\footnotesize}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+./Before.tex:5: Undefined control sequence.
+l.5 \fvset{fontsize=\footnotesize
+                                 }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:6: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \usepackage{
+                graphicx}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:7: Undefined control sequence.
+l.7 \graphicspath
+                 {{Figures/}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+
+./Before.tex:8: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \usepackage{
+                hologo}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:9: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \usepackage{
+                amsmath}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:10: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \usepackage{
+                 cases}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:11: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \usepackage{
+                 threeparttable}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:16: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \usepackage[UTF8,fontset=none]{
+                                    ctex}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:18: Undefined control sequence.
+l.18    \setmainfont
+                    {libertinusserif}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no ] in font nullfont!
+./Before.tex:26: Undefined control sequence.
+l.26     \setsansfont
+                     {Roboto}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no ] in font nullfont!
+./Before.tex:34: Undefined control sequence.
+l.34       \setCJKmainfont
+                           {Source Han Sans SC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+./Before.tex:41: Undefined control sequence.
+l.41       \setCJKsansfont
+                          {Source Han Sans SC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ] in font nullfont!
+./Before.tex:48: Undefined control sequence.
+l.48       \setCJKmonofont
+                          {Source Han Serif SC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--54
+[]
+ []
+
+
+./Before.tex:59: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \usepackage{
+                 xurl}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:109: Undefined control sequence.
+l.109 \ifCLASSINFOpdf
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Before.tex:116: Extra \else.
+l.116 \else
+           
+I'm ignoring this; it doesn't match any \if.
+
+./Before.tex:126: Extra \fi.
+l.126 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+
+./Before.tex:333: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \usepackage{
+                  hyperref}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./Before.tex:334: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 \usepackage{
+                  cleveref}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:335: Undefined control sequence.
+l.335 \crefformat
+                 {figure}{#2图~#1#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:335: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \crefformat{f
+                   igure}{#2图~#1#3}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+./Before.tex:335: You can't use `macro parameter character #' in horizontal mod
+e.
+l.335 \crefformat{figure}{#
+                           2图~#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+
+./Before.tex:335: LaTeX Error: Unicode character 图 (U+56FE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \crefformat{figure}{#2图
+                               ~#1#3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:335: You can't use `macro parameter character #' in horizontal mod
+e.
+l.335 \crefformat{figure}{#2图~#
+                                 1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:335: You can't use `macro parameter character #' in horizontal mod
+e.
+l.335 \crefformat{figure}{#2图~#1#
+                                   3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:336: Undefined control sequence.
+l.336 \crefrangeformat
+                      {figure}{图~(#3#1#4)\;$\sim$\;(#5#2#6)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+./Before.tex:336: LaTeX Error: Unicode character 图 (U+56FE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 \crefrangeformat{figure}{图
+                                  ~(#3#1#4)\;$\sim$\;(#5#2#6)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 \crefrangeformat{figure}{图~(#
+                                     3#1#4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 \crefrangeformat{figure}{图~(#3#
+                                       1#4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 \crefrangeformat{figure}{图~(#3#1#
+                                         4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 336.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 336.
+Missing character: There is no ( in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 ...geformat{figure}{图~(#3#1#4)\;$\sim$\;(#
+                                                  5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 5 in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 ...format{figure}{图~(#3#1#4)\;$\sim$\;(#5#
+                                                  2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:336: You can't use `macro parameter character #' in horizontal mod
+e.
+l.336 ...rmat{figure}{图~(#3#1#4)\;$\sim$\;(#5#2#
+                                                  6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no ) in font nullfont!
+./Before.tex:337: Undefined control sequence.
+l.337 \crefmultiformat
+                      {figure}{图~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+
+./Before.tex:337: LaTeX Error: Unicode character 图 (U+56FE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \crefmultiformat{figure}{图
+                                  ~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 \crefmultiformat{figure}{图~(#
+                                     2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 \crefmultiformat{figure}{图~(#2#
+                                       1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 \crefmultiformat{figure}{图~(#2#1#
+                                         3)}{和~(#2#1#3)}{，(#2#1#3)}{和~...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:337: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \crefmultiformat{figure}{图~(#2#1#3)}{和
+                                                ~(#2#1#3)}{，(#2#1#3)}{和~...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...fmultiformat{figure}{图~(#2#1#3)}{和~(#
+                                                  2#1#3)}{，(#2#1#3)}{和~(...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...ultiformat{figure}{图~(#2#1#3)}{和~(#2#
+                                                  1#3)}{，(#2#1#3)}{和~(#2...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...tiformat{figure}{图~(#2#1#3)}{和~(#2#1#
+                                                  3)}{，(#2#1#3)}{和~(#2#1...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:337: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 ...t{figure}{图~(#2#1#3)}{和~(#2#1#3)}{，
+                                                  (#2#1#3)}{和~(#2#1#3)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...figure}{图~(#2#1#3)}{和~(#2#1#3)}{，(#
+                                                  2#1#3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...gure}{图~(#2#1#3)}{和~(#2#1#3)}{，(#2#
+                                                  1#3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...re}{图~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#
+                                                  3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:337: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 ...~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和
+                                                  ~(#2#1#3)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#
+                                                  2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#2#
+                                                  1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:337: You can't use `macro parameter character #' in horizontal mod
+e.
+l.337 ...3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#2#1#
+                                                  3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (27.7778pt too wide) in paragraph at lines 335--338
+[]   $\OMS/cmsy/m/n/10 ^^X$
+ []
+
+./Before.tex:339: Undefined control sequence.
+l.339 \crefformat
+                 {table}{#2表#1#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:339: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 \crefformat{t
+                   able}{#2表#1#3}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+./Before.tex:339: You can't use `macro parameter character #' in horizontal mod
+e.
+l.339 \crefformat{table}{#
+                          2表#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+
+./Before.tex:339: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 \crefformat{table}{#2表
+                              #1#3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:339: You can't use `macro parameter character #' in horizontal mod
+e.
+l.339 \crefformat{table}{#2表#
+                               1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:339: You can't use `macro parameter character #' in horizontal mod
+e.
+l.339 \crefformat{table}{#2表#1#
+                                 3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:340: Undefined control sequence.
+l.340 \crefrangeformat
+                      {table}{表(#3#1#4)\;$\sim$\;(#5#2#6)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+
+./Before.tex:340: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 \crefrangeformat{table}{表
+                                 (#3#1#4)\;$\sim$\;(#5#2#6)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 \crefrangeformat{table}{表(#
+                                   3#1#4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 \crefrangeformat{table}{表(#3#
+                                     1#4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 \crefrangeformat{table}{表(#3#1#
+                                       4)\;$\sim$\;(#5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ( in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 ...angeformat{table}{表(#3#1#4)\;$\sim$\;(#
+                                                  5#2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 5 in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 ...geformat{table}{表(#3#1#4)\;$\sim$\;(#5#
+                                                  2#6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:340: You can't use `macro parameter character #' in horizontal mod
+e.
+l.340 ...format{table}{表(#3#1#4)\;$\sim$\;(#5#2#
+                                                  6)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no ) in font nullfont!
+./Before.tex:341: Undefined control sequence.
+l.341 \crefmultiformat
+                      {table}{表~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+
+./Before.tex:341: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \crefmultiformat{table}{表
+                                 ~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 \crefmultiformat{table}{表~(#
+                                    2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 \crefmultiformat{table}{表~(#2#
+                                      1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 \crefmultiformat{table}{表~(#2#1#
+                                        3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:341: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 \crefmultiformat{table}{表~(#2#1#3)}{和
+                                               ~(#2#1#3)}{，(#2#1#3)}{和~(...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 \crefmultiformat{table}{表~(#2#1#3)}{和~(#
+                                                  2#1#3)}{，(#2#1#3)}{和~(...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...multiformat{table}{表~(#2#1#3)}{和~(#2#
+                                                  1#3)}{，(#2#1#3)}{和~(#2...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...ltiformat{table}{表~(#2#1#3)}{和~(#2#1#
+                                                  3)}{，(#2#1#3)}{和~(#2#1...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:341: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 ...at{table}{表~(#2#1#3)}{和~(#2#1#3)}{，
+                                                  (#2#1#3)}{和~(#2#1#3)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...{table}{表~(#2#1#3)}{和~(#2#1#3)}{，(#
+                                                  2#1#3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...able}{表~(#2#1#3)}{和~(#2#1#3)}{，(#2#
+                                                  1#3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...le}{表~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#
+                                                  3)}{和~(#2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+./Before.tex:341: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 ...~(#2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和
+                                                  ~(#2#1#3)}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Missing character: There is no ( in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...2#1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#
+                                                  2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...1#3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#2#
+                                                  1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:341: You can't use `macro parameter character #' in horizontal mod
+e.
+l.341 ...3)}{和~(#2#1#3)}{，(#2#1#3)}{和~(#2#1#
+                                                  3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 339--342
+[]
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 339--342
+\OMS/cmsy/m/n/10 ^^X$
+ []
+
+./Before.tex:343: Undefined control sequence.
+l.343 \crefformat
+                 {equation}{~(#2#1#3)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:343: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 \crefformat{e
+                   quation}{~(#2#1#3)}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ( in font nullfont!
+./Before.tex:343: You can't use `macro parameter character #' in horizontal mod
+e.
+l.343 \crefformat{equation}{~(#
+                               2#1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:343: You can't use `macro parameter character #' in horizontal mod
+e.
+l.343 \crefformat{equation}{~(#2#
+                                 1#3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:343: You can't use `macro parameter character #' in horizontal mod
+e.
+l.343 \crefformat{equation}{~(#2#1#
+                                   3)}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ) in font nullfont!
+./Before.tex:344: Undefined control sequence.
+l.344 \crefrangeformat
+                      {equation}{~#3#1#4\;$\sim$\;#5#2#6}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 \crefrangeformat{equation}{~#
+                                   3#1#4\;$\sim$\;#5#2#6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 \crefrangeformat{equation}{~#3#
+                                     1#4\;$\sim$\;#5#2#6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 \crefrangeformat{equation}{~#3#1#
+                                       4\;$\sim$\;#5#2#6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 4 in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 ...frangeformat{equation}{~#3#1#4\;$\sim$\;#
+                                                  5#2#6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 5 in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 ...angeformat{equation}{~#3#1#4\;$\sim$\;#5#
+                                                  2#6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:344: You can't use `macro parameter character #' in horizontal mod
+e.
+l.344 ...geformat{equation}{~#3#1#4\;$\sim$\;#5#2#
+                                                  6}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 6 in font nullfont!
+./Before.tex:345: Undefined control sequence.
+l.345 \crefmultiformat
+                      {equation}{~#2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#1#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 \crefmultiformat{equation}{~#
+                                   2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 \crefmultiformat{equation}{~#2#
+                                     1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 \crefmultiformat{equation}{~#2#1#
+                                       3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+
+./Before.tex:345: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 \crefmultiformat{equation}{~#2#1#3}{ 和
+                                              ~#2#1#3}{，#2#1#3}{ 和~#2#1#3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 \crefmultiformat{equation}{~#2#1#3}{ 和~#
+                                                2#1#3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 \crefmultiformat{equation}{~#2#1#3}{ 和~#2#
+                                                  1#3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...multiformat{equation}{~#2#1#3}{ 和~#2#1#
+                                                  3}{，#2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+
+./Before.tex:345: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 ...ormat{equation}{~#2#1#3}{ 和~#2#1#3}{，
+                                                  #2#1#3}{ 和~#2#1#3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...rmat{equation}{~#2#1#3}{ 和~#2#1#3}{，#
+                                                  2#1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...at{equation}{~#2#1#3}{ 和~#2#1#3}{，#2#
+                                                  1#3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...{equation}{~#2#1#3}{ 和~#2#1#3}{，#2#1#
+                                                  3}{ 和~#2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+
+./Before.tex:345: LaTeX Error: Unicode character 和 (U+548C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 ...on}{~#2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和
+                                                  ~#2#1#3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...}{~#2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#
+                                                  2#1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...~#2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#
+                                                  1#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:345: You can't use `macro parameter character #' in horizontal mod
+e.
+l.345 ...2#1#3}{ 和~#2#1#3}{，#2#1#3}{ 和~#2#1#
+                                                  3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:346: Undefined control sequence.
+l.346 \crefformat
+                 {section}{~#2#1~节#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+./Before.tex:346: You can't use `macro parameter character #' in horizontal mod
+e.
+l.346 \crefformat{section}{~#
+                             2#1~节#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:346: You can't use `macro parameter character #' in horizontal mod
+e.
+l.346 \crefformat{section}{~#2#
+                               1~节#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+
+./Before.tex:346: LaTeX Error: Unicode character 节 (U+8282)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 \crefformat{section}{~#2#1~节
+                                    #3}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:346: You can't use `macro parameter character #' in horizontal mod
+e.
+l.346 \crefformat{section}{~#2#1~节#
+                                     3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:347: Undefined control sequence.
+l.347 \crefformat
+                 {subsection}{~#2#1~#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+./Before.tex:347: You can't use `macro parameter character #' in horizontal mod
+e.
+l.347 \crefformat{subsection}{~#
+                                2#1~#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:347: You can't use `macro parameter character #' in horizontal mod
+e.
+l.347 \crefformat{subsection}{~#2#
+                                  1~#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:347: You can't use `macro parameter character #' in horizontal mod
+e.
+l.347 \crefformat{subsection}{~#2#1~#
+                                     3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+./Before.tex:348: Undefined control sequence.
+l.348 \crefformat
+                 {subsubsection}{~#2#1~#3}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+./Before.tex:348: You can't use `macro parameter character #' in horizontal mod
+e.
+l.348 \crefformat{subsubsection}{~#
+                                   2#1~#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 2 in font nullfont!
+./Before.tex:348: You can't use `macro parameter character #' in horizontal mod
+e.
+l.348 \crefformat{subsubsection}{~#2#
+                                     1~#3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 1 in font nullfont!
+./Before.tex:348: You can't use `macro parameter character #' in horizontal mod
+e.
+l.348 \crefformat{subsubsection}{~#2#1~#
+                                        3}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no 3 in font nullfont!
+
+./Before.tex:354: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 \usepackage[framemethod=tikz]{
+                                    mdframed}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+./Before.tex:355: Undefined control sequence.
+l.355 \newmdenv
+               [linewidth=.4pt,linecolor=gray!55,%middlelinewidth=1.2pt,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ! in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+./Before.tex:358: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   f
+l.358     f
+           rametitlealignment=\center,
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+
+Overfull \hbox (27.7778pt too wide) in paragraph at lines 343--358
+[]   $\OMS/cmsy/m/n/10 ^^X$
+ []
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
+(d:/texlive/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box50
+)
+(D:/Latex文件/学报/深度学习/out/Before.aux)
+\openout1 = `Before.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 367.
+LaTeX Font Info:    ... okay on input line 367.
+
+
+./Before.tex:367: LaTeX Error: The font size command \normalsize is not defined
+:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 \begin{document}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Before.tex:368: Undefined control sequence.
+l.368 	\VerbatimFootnotes
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+{蔡雨皓~\IEEEmembership {202222011068} 论文编辑器：\href {ht\ETC.
+./Before.tex:392: Paragraph ended before \author  was complete.
+<to be read again> 
+                   \par 
+l.392 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Before.tex:436: Undefined control sequence.
+l.436 \IEEEspecialpapernotice
+                             {\hbox{有问题来这里：\href{https://githu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:436: LaTeX Error: Unicode character 有 (U+6709)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 \IEEEspecialpapernotice{\hbox{有
+                                       问题来这里：\href{https://githu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character 问 (U+95EE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 \IEEEspecialpapernotice{\hbox{有问
+                                          题来这里：\href{https://githu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character 题 (U+9898)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 \IEEEspecialpapernotice{\hbox{有问题
+                                             来这里：\href{https://githu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character 来 (U+6765)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 \IEEEspecialpapernotice{\hbox{有问题来
+                                                这里：\href{https://githu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character 这 (U+8FD9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 ...Especialpapernotice{\hbox{有问题来这
+                                                  里：\href{https://github...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character 里 (U+91CC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 ...ecialpapernotice{\hbox{有问题来这里
+                                                  ：\href{https://github.co...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:436: LaTeX Error: Unicode character ： (U+FF1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436 ...alpapernotice{\hbox{有问题来这里：
+                                                  \href{https://github.com/c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./Before.tex:436: Undefined control sequence.
+l.436 ...ernotice{\hbox{有问题来这里：\href
+                                                  {https://github.com/caiyuh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Before.tex:442: Undefined control sequence.
+l.442 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Before.tex:446: LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.446 \begin{abstract}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Before.tex:447: LaTeX Error: Unicode character 股 (U+80A1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股
+         票预测一直是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 票 (U+7968)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票
+            预测一直是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 预 (U+9884)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预
+               测一直是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 测 (U+6D4B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测
+                  一直是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 一 (U+4E00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一
+                     直是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 直 (U+76F4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直
+                        是金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 是 (U+662F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是
+                           金融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 金 (U+91D1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金
+                              融量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 融 (U+878D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融
+                                 量化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 量 (U+91CF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融量
+                                    化的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 化 (U+5316)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融量化
+                                       的热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融量化的
+                                          热门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 热 (U+70ED)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融量化的热
+                                             门话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 门 (U+95E8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 股票预测一直是金融量化的热门
+                                                话题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 话 (U+8BDD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��预测一直是金融量化的热门话
+                                                  题，由于股票价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 题 (U+9898)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��测一直是金融量化的热门话题
+                                                  ，由于股票价格指�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��一直是金融量化的热门话题，
+                                                  由于股票价格指数�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 由 (U+7531)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��直是金融量化的热门话题，由
+                                                  于股票价格指数的�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 于 (U+4E8E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��是金融量化的热门话题，由于
+                                                  股票价格指数的价�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 股 (U+80A1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��金融量化的热门话题，由于股
+                                                  票价格指数的价格�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 票 (U+7968)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��融量化的热门话题，由于股票
+                                                  价格指数的价格序�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 价 (U+4EF7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��量化的热门话题，由于股票价
+                                                  格指数的价格序列�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 格 (U+683C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��化的热门话题，由于股票价格
+                                                  指数的价格序列具�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 指 (U+6307)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��的热门话题，由于股票价格指
+                                                  数的价格序列具有�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��热门话题，由于股票价格指数
+                                                  的价格序列具有混�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��门话题，由于股票价格指数的
+                                                  价格序列具有混沌�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 价 (U+4EF7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��话题，由于股票价格指数的价
+                                                  格序列具有混沌性�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 格 (U+683C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��题，由于股票价格指数的价格
+                                                  序列具有混沌性高�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 序 (U+5E8F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��，由于股票价格指数的价格序
+                                                  列具有混沌性高、�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 列 (U+5217)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��由于股票价格指数的价格序列
+                                                  具有混沌性高、非�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 具 (U+5177)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��于股票价格指数的价格序列具
+                                                  有混沌性高、非线�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 有 (U+6709)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��股票价格指数的价格序列具有
+                                                  混沌性高、非线性�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 混 (U+6DF7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��票价格指数的价格序列具有混
+                                                  沌性高、非线性程�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 沌 (U+6C8C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��价格指数的价格序列具有混沌
+                                                  性高、非线性程度�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 性 (U+6027)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��格指数的价格序列具有混沌性
+                                                  高、非线性程度较�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 高 (U+9AD8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��指数的价格序列具有混沌性高
+                                                  、非线性程度较强�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��数的价格序列具有混沌性高、
+                                                  非线性程度较强的�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 非 (U+975E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��的价格序列具有混沌性高、非
+                                                  线性程度较强的特�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 线 (U+7EBF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��价格序列具有混沌性高、非线
+                                                  性程度较强的特点�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 性 (U+6027)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��格序列具有混沌性高、非线性
+                                                  程度较强的特点，�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 程 (U+7A0B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��序列具有混沌性高、非线性程
+                                                  度较强的特点，用�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 度 (U+5EA6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��列具有混沌性高、非线性程度
+                                                  较强的特点，用一�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 较 (U+8F83)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��具有混沌性高、非线性程度较
+                                                  强的特点，用一般�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 强 (U+5F3A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��有混沌性高、非线性程度较强
+                                                  的特点，用一般的�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��混沌性高、非线性程度较强的
+                                                  特点，用一般的统�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 特 (U+7279)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��沌性高、非线性程度较强的特
+                                                  点，用一般的统计�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 点 (U+70B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��性高、非线性程度较强的特点
+                                                  ，用一般的统计学�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character ， (U+FF0C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��高、非线性程度较强的特点，
+                                                  用一般的统计学方�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��、非线性程度较强的特点，用
+                                                  一般的统计学方法�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 一 (U+4E00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��非线性程度较强的特点，用一
+                                                  般的统计学方法难�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 般 (U+822C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��线性程度较强的特点，用一般
+                                                  的统计学方法难以�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��性程度较强的特点，用一般的
+                                                  统计学方法难以构�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 统 (U+7EDF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��程度较强的特点，用一般的统
+                                                  计学方法难以构建�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 计 (U+8BA1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��度较强的特点，用一般的统计
+                                                  学方法难以构建出�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��较强的特点，用一般的统计学
+                                                  方法难以构建出模�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 方 (U+65B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��强的特点，用一般的统计学方
+                                                  法难以构建出模型�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 法 (U+6CD5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��的特点，用一般的统计学方法
+                                                  难以构建出模型预�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 难 (U+96BE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��特点，用一般的统计学方法难
+                                                  以构建出模型预测�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 以 (U+4EE5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��点，用一般的统计学方法难以
+                                                  构建出模型预测股�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 构 (U+6784)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��，用一般的统计学方法难以构
+                                                  建出模型预测股价�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 建 (U+5EFA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��用一般的统计学方法难以构建
+                                                  出模型预测股价。�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 出 (U+51FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��一般的统计学方法难以构建出
+                                                  模型预测股价。由�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 模 (U+6A21)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��般的统计学方法难以构建出模
+                                                  型预测股价。由于�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 型 (U+578B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��的统计学方法难以构建出模型
+                                                  预测股价。由于神�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 预 (U+9884)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��统计学方法难以构建出模型预
+                                                  测股价。由于神经�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 测 (U+6D4B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��计学方法难以构建出模型预测
+                                                  股价。由于神经网�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 股 (U+80A1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��学方法难以构建出模型预测股
+                                                  价。由于神经网络�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 价 (U+4EF7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��方法难以构建出模型预测股价
+                                                  。由于神经网络对�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 。 (U+3002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��法难以构建出模型预测股价。
+                                                  由于神经网络对预�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 由 (U+7531)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��难以构建出模型预测股价。由
+                                                  于神经网络对预测�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 于 (U+4E8E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��以构建出模型预测股价。由于
+                                                  神经网络对预测序�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 神 (U+795E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��构建出模型预测股价。由于神
+                                                  经网络对预测序列�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 经 (U+7ECF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��建出模型预测股价。由于神经
+                                                  网络对预测序列的�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 网 (U+7F51)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��出模型预测股价。由于神经网
+                                                  络对预测序列的非�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 络 (U+7EDC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��模型预测股价。由于神经网络
+                                                  对预测序列的非线�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 对 (U+5BF9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��型预测股价。由于神经网络对
+                                                  预测序列的非线性�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 预 (U+9884)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��预测股价。由于神经网络对预
+                                                  测序列的非线性关�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 测 (U+6D4B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��测股价。由于神经网络对预测
+                                                  序列的非线性关系�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 序 (U+5E8F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��股价。由于神经网络对预测序
+                                                  列的非线性关系具�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 列 (U+5217)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��价。由于神经网络对预测序列
+                                                  的非线性关系具有�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��。由于神经网络对预测序列的
+                                                  非线性关系具有突�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 非 (U+975E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��由于神经网络对预测序列的非
+                                                  线性关系具有突出�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 线 (U+7EBF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��于神经网络对预测序列的非线
+                                                  性关系具有突出优�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 性 (U+6027)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��神经网络对预测序列的非线性
+                                                  关系具有突出优势�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 关 (U+5173)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��经网络对预测序列的非线性关
+                                                  系具有突出优势，�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Before.tex:447: LaTeX Error: Unicode character 系 (U+7CFB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 ...��网络对预测序列的非线性关系
+                                                  具有突出优势，人�...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 269 strings out of 480175
+ 5760 string characters out of 5893586
+ 289318 words of memory out of 5000000
+ 18323 multiletter control sequences out of 15000+600000
+ 469564 words of font info for 29 fonts, out of 8000000 for 9000
+ 39 hyphenation exceptions out of 8191
+ 24i,1n,34p,812b,84s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+./Before.tex:447:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://w.wanfangdata.com.cn/export.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe export</title>
+  </head>
+  <body>
+    <script>
+      function ExportStorage() {
+        var self = this;
+        this.sendResponse = function() {
+          window.parent.postMessage(
+            {
+              type: 'response',
+              value: window.localStorage.getItem('ExportItem') || ''
+            },
+            '*'
+          );
+        };
+        this.storage = {
+          // 获取所有
+          get: function() {
+            // console.log('export：接收到 get 消息，获取导出数据');
+            self.sendResponse();
+          },
+          // 更新导出数据
+          put: function(data) {
+            // console.log('export：接收到 put 消息，更新导出数据');
+            window.localStorage.setItem('ExportItem', data.value);
+          },
+          // 添加一条数据
+          add: function(data) {
+            // console.log('在末尾增加一条数据');
+            var old = window.localStorage.getItem('ExportItem') || '';
+            if (old) {
+              if (old.indexOf(data.value) === -1) {
+                window.localStorage.setItem('ExportItem', old + ';' + data.value);
+              }
+            } else {
+              window.localStorage.setItem('ExportItem', data.value);
+            }
+          },
+          // 删除一条数据
+          delete: function(data) {
+            // console.log('删除一条导出数据');
+            var exportItem = window.localStorage.getItem('ExportItem');
+            if (!exportItem) {
+              // self.sendResponse();
+              return;
+            }
+            var exportArr = exportItem.split(';');
+            if (!exportArr.length) {
+              // self.sendResponse();
+              return;
+            }
+            var tmp = [];
+            exportArr.forEach(function(item) {
+              if (item.indexOf(data.key) === -1) {
+                tmp.push(item);
+              }
+            });
+            if (tmp.length) {
+              window.localStorage.setItem('ExportItem', tmp.join(';'));
+            }
+            // self.sendResponse();
+          },
+          // 清空导出数据
+          clear: function() {
+            // console.log('清空导出数据');
+            window.localStorage.removeItem('ExportItem');
+            // self.sendResponse();
+          }
+        };
+        this.init = function() {
+          window.addEventListener('storage', function(e) {
+            // console.log('导出数据变更');
+            self.sendResponse();
+          });
+          window.addEventListener('message', function(e) {
+            // console.log('export****:监听 message 事件', e);
+            if (e.data && e.data.type) {
+              self.storage[e.data.type](e.data);
+            }
+          });
+        };
+      }
+      var exportStorage = new ExportStorage();
+      exportStorage.init();
+    </script>
+  
+
+</body></html>
